@@ -1,4 +1,35 @@
-body
+#bodyPage
 {
   padding-top: 56px;
+  background-color: #9A12B3;
+}
+
+.navbar
+{
+  background-color:#8b15be;
+}
+
+#imgLogoTopPage
+{
+  margin-top: 5em;
+  margin-bottom: 1.3em;
+}
+.navbar-brand
+{
+  color: white;
+  font-weight: bold;
+  font-size: 23pt;
+}
+.nav-link
+{
+  color: white;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+footer
+{
+  font-weight: bold;
+  font-size: 15pt;
+  font-family: sans-serif;
 }
