@@ -1,3 +1,4 @@
+/* ========================= LAYOUT DO BODY E NAVBAR ======================= */
 #bodyPage
 {
   padding-top: 56px;
@@ -25,6 +26,22 @@
   color: white;
   font-weight: bold;
   font-size: 14pt;
+}
+
+/* =============================== LAYOUT DO CAROUSEL ========================================= */
+
+#carouselTopo
+{
+ width: 130em;
+ height: 10em;
+ margin-bottom: 16em;
+ margin-top: 6em;
+}
+
+#myCarousel
+{
+  border: 2px solid black;
+  margin-top: 6em;
 }
 
 footer
