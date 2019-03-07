@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+//import { Component, OnInit, Injectable } from '@angular/core';
 import { preserveWhitespacesDefault } from '@angular/compiler';
-import { RestService } from './rest.service';
-import { Comic } from './comic';
+//import { RestService } from './rest.service';
+import { Http } from '@angular/http';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -9,15 +10,13 @@ import { Comic } from './comic';
   styleUrls: ['./app.component.css'],
   preserveWhitespaces: true
 })
-export class AppComponent implements OnInit
-{
-  comics:Comic[];
 
-  title = 'Quadrinhos Marvel';
-  constructor(private service:RestService){}
 
-  ngOnInit()
-  {
-    this.service.list().subscribe(dados => this.comics = dados);
+export class AppComponent implements OnInit{
+  
+  ngOnInit() {
+    
   }
 }
+
+  

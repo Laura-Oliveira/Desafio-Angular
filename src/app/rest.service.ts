@@ -9,14 +9,4 @@ import { Comic } from './comic';
   providedIn: 'root'
 })
 
-export class RestService
-{
-  constructor(private http: HttpClient) { }
-  private readonly APIMarvel = 'http://localhost:3000/curso';
-
-  list()
-  {
-    return this.http.get<Comic[]>(this.APIMarvel);
-  }
- 
-}
+export class RestService {}

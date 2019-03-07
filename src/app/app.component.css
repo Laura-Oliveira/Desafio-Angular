@@ -1,53 +1,48 @@
 /* ========================= LAYOUT DO BODY E NAVBAR ======================= */
-#bodyPage
-{
-  padding-top: 56px;
-  background-color: #9A12B3;
-}
 
-.navbar
-{ /*#8b15be*/
-  background-color:#6f006f;
-}
 
-#imgLogoTopPage
-{
-  margin-top: 5em;
-  margin-bottom: 1.3em;
-}
-.navbar-brand
-{
-  color: white;
-  font-weight: bold;
-  font-size: 23pt;
-}
-.nav-link
-{
-  color: white;
-  font-weight: bold;
-  font-size: 14pt;
-}
+/* APLICAÃO RESPONSIVA PARA DISPOSITIVOS OS 
+SEGUINTES DISPOSITIVOS: GOOGLE CHROME, TABLETS 
+(PAISAGEM E RETRATO), SMARTPHONE */
 
-/* =============================== LAYOUT DO CAROUSEL ========================================= */
-
-#carouselTopo
-{
- width: 130em;
- height: 10em;
- margin-bottom: 16em;
- margin-top: 6em;
-}
-
-#myCarousel
-{
-  border: 2px solid black;
-  margin-top: 6em;
-}
-
-footer
-{
-  font-weight: bold;
-  font-size: 15pt;
-  font-family: sans-serif;
-  background-color: #6f006f;
+@media screen and (max-width: 100em),
+(max-width: 1920px),
+(max-width: 1080px) {
+    #bodyPage {
+        padding-top: 56px;
+        background-color: #9A12B3;
+    }
+    .navbar {
+        background-color: #6f006f;
+    }
+    #divTitleLogoTopPage {
+        margin-bottom: 2.5em;
+        color: #8A2BE2;
+    }
+    #titleTopAboveMarvelLogo {
+        font-family: 'Righteous', cursive;
+        font-size: 40pt;
+        margin-top: 2em;
+    }
+    .navbar-brand {
+        color: white;
+        font-weight: bold;
+        font-size: 23pt;
+    }
+    .nav-link {
+        color: white;
+        font-weight: bold;
+        font-size: 14pt;
+    }
+    #imgLogoMarvel {
+        align-content: center;
+        margin-bottom: 2em;
+    }
+    footer {
+        background-color: #6f006f;
+        color: white;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 14pt;
+    }
 }

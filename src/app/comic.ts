@@ -1,5 +1,9 @@
+import { Injectable } from "@angular/compiler/src/core";
+
 export interface Comic
 {
     id:number;
-    nome:string;
+    title:string;
+    variantDescription:string;
+    description:string;
 }
